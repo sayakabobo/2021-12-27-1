@@ -25,3 +25,22 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+/*///////////////////////////////////
+ media query
+////////////////////////////////////*/
+
+@media (max-width: 768px) {
+  .pl {
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
+}

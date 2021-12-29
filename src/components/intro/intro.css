@@ -85,3 +85,26 @@
   top: 0;
   right: 0;
 }
+
+/*///////////////////////////////////
+ media query
+////////////////////////////////////*/
+
+@media (max-width: 768px) {
+  .i {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc {
+    display: none;
+  }
+}
